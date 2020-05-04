@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix=commands.when_mentioned_or(*command_list), cas
 @bot.event
 
 async def on_ready():
-    print('Kranthos Bot running!')
+    print('Kranthos Bot is running!')
 
 @bot.command()
 
@@ -17,7 +17,7 @@ async def crazy(ctx):
 
     await ctx.send("Whoooaaa")
 
-bot.run("e.i sddsf7jgsf6d5g-dhdg2hf4g4hf5gh-Yw#") #REPLACE THE TOKEN
+bot.run("e.i sddsf7jgsf6d5g-dhdg2hf4g4hf5gh-Yw#") #REPLACE THE TOKEN TO RUN THE BOT
 
 
 
