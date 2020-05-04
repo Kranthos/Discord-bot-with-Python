@@ -121,7 +121,7 @@ bot = commands.Bot(command_prefix=commands.when_mentioned_or(*command_list), cas
 @bot.event
 
 async def on_ready():
-    print('Kranthos Bot running!')
+    print('Kranthos Bot is running!')
 
 ##command
 
