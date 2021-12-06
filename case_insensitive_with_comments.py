@@ -105,7 +105,6 @@
 #have a nice day. uwu
 #and thanks for watching, hope that this tutorial will benefit you
 
-
 import discord
 from discord.ext import commands
 
@@ -113,28 +112,17 @@ from discord.ext import commands
 command_list = ["!KRANTHOS ", "!kranthos ", "!Kranthos "] 
 
 ##defining the bot command prefix
-
 bot = commands.Bot(command_prefix=commands.when_mentioned_or(*command_list), case_insensitive=True)
 
 ##Bot launch notif
-
 @bot.event
-
 async def on_ready():
     print('Kranthos Bot is running!')
-
+    
 ##command
-
 @bot.command()
-
 async def crazy(ctx):
-
     await ctx.send("Whoooaaa")
 
 ##running the bot
-
 bot.run("e.i sddsf7jgsf6d5g-dhdg2hf4g4hf5gh-Yw#") #REPLACE THE TOKEN
-
-
-#####################################################Done
-
